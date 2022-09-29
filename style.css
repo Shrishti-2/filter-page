@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,300;1,400&display=swap');
+ 
+ header {
+    background-color: #CE0505;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 32px;
+    color: #EB2929;
+    font-weight: 900;
+    /*padding: 10px 5px;*/
+    margin-left: 0;
+}
+body {
+    font-family:'Poppins', sans-serif;
+}
+.heading {
+  color: rgb(19, 19, 136);
+}
+.btn{
+    padding: 5px 10px;
+    background-color: white;
+    border: 1px solid; 
+    color: #CE0505;
+    border-radius: 3px;
+    font-weight: 700; margin-left: auto;
+}
+nav{
+    column-gap: 20px;
+    align-items: center;
+    display: flex;
+} 
+nav a { 
+        text-decoration: none;
+        color:white;
+}
+aside {
+    box-shadow: 0px 3px 6px rgb(95, 91, 91);
+    padding: 22px;
+    width:300px;
+    height: 649px;
+}
+.filter {
+    font-weight: 900;
+    color: rgb(51, 51, 223);
+    font-size: 18px;
+}
+.location select{
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin: 10px 0px;
+}
+.location, .cuisine, .cost, .sort, p {
+    font-size: 14px;
+    margin: 10px;
+} 
+.card{
+    box-shadow: 0px 3px 6px rgb(95, 91, 91);
+    margin:20px; 
+    padding: 2%;
+    width: 800px;
+}
+.container{
+    display: flex;
+    justify-content:space-around;
+    margin-right:auto;
+    padding:3px;
+}
+.img{
+    margin-right: auto;
+    border-radius: 10px;
+}
+.text{ 
+    margin-right: 220px;
+    margin-bottom: 20px;
+}
+.align{
+    display:flex;
+    padding:20px;
+}
+table{
+    border-color: white;
+    width: 260px;
+
+}
+.scroll{
+    align-items: center;
+margin-left: 50%;
+}
